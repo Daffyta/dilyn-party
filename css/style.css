@@ -1,0 +1,93 @@
+body {
+  background-image: url("../assets/img/birthday-pattern-happy.png");
+  background-size: 30%;
+  background-repeat: repeat;
+}
+
+.dylan {
+  display: flex;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: School-Book-New;
+  src: url('../assets/fonts/School-Book-New.ttf')format("truetype");
+}
+
+@font-face {
+  font-family: KGALittleSwag;
+  src: url('../assets/fonts/KGALittleSwag.ttf')format("truetype");
+}
+
+.hola {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  font-family: KGALittleSwag;
+  text-align: center;
+  color: #8503b9;
+}
+
+.hola h1 {
+  font-size: 7rem !important;
+}
+
+.fiesta, h3, p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+h2, h3, p, button, .modal {
+  font-family: School-Book-New;
+}
+
+.buttons{
+ display: flex;
+ justify-content: center;
+ padding: 2%;
+ margin-bottom: 5%;
+}
+
+a {
+  margin-left: 2%;
+}
+
+button{
+  text-transform: none;
+  border: #8503b9 solid 2px;
+  border-radius: 5px;
+  width: 165px;
+  background-color: white;
+}
+
+
+/* queries */
+
+@media screen and (max-width: 414px) {
+  body {
+    background-image: url("../assets/img/birthday-pattern-happy.png");
+    background-size: 50%;
+    background-repeat: repeat;
+  }
+  .dylan {
+    display: none;
+  }
+  .texto {
+    background-image: url('../assets/img/dylin.png');
+    background-size: cover;
+    height: 800px;
+  }
+
+  .hola h1 {
+    font-size: 6rem !important;
+  }
+
+  button{
+    text-transform: none;
+    border: #8503b9 solid 2px;
+    border-radius: 5px;
+    width: 165px;
+    background-color: white;
+  }
+}
